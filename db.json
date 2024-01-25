@@ -1,0 +1,93 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Areas Of Expertise",
+      "description": "I work with individuals, couples, families, children, and adolescents, to improve their lives and help them resolve their issues of conern..."
+    },
+    {
+      "id": 2,
+      "name": "Individual Counseling",
+      "description": "Our individual counseling services provide a safe and confidential space for you to explore your thoughts, feelings, and concerns..."
+    },
+    {
+      "id": 3,
+      "name": "Children and Adolecents",
+      "description": "Our counseling services for children and adolescents are tailored to address their unique needs. We provide a supportive environment for growth, development, and navigating challenges specific to this age group..."
+    },
+    {
+      "id": 4,
+      "name": "Family Counseling",
+      "description": "Family dynamics can sometimes be complex. Our family counseling services are designed to address communication issues, resolve conflicts, and strengthen the overall family unit.."
+    },
+    {
+      "id": 5,
+      "name": "Stress Managment",
+      "description": "In today's fast-paced world, stress can take a toll on both mental and physical health. Our stress management sessions focus on equipping individuals with practical tools to cope with stress..."
+    },
+    {
+      "id": 6,
+      "name": "Anxiety and Depression Support",
+      "description": "If you're dealing with anxiety or depression, our therapists offer compassionate support and evidence-based strategies to help you manage symptoms and regain control over your life..."
+    },
+    {
+      "id": 7,
+      "name": "Trauama Recovery",
+      "description": "Trauma can have a lasting impact on mental health. Our trauma recovery services provide a safe and supportive space for individuals to process and heal from past traumatic experiences..."
+    },
+    {
+      "id": 8,
+      "name": "Telehealth",
+      "description": "For added convenience, we offer online therapy services. Whether you're unable to attend in-person sessions or prefer the flexibility of virtual counseling, our online therapy options allow you to receive support from the comfort of your own space..."
+    },
+    {
+      "id": 9,
+      "name": "ADHD",
+      "description": "Our ADHD counseling services aim to provide support and strategies for individuals navigating attention-deficit/hyperactivity disorder..."
+    },
+    {
+      "id": 10,
+      "name": "Relationship Issues",
+      "description": "If you're facing challenges in your relationships, our therapists are here to help you navigate and improve communication, understanding, and connection..."
+    },
+    {
+      "id": 11,
+      "name": "Self-Improvement/Self-Esteem",
+      "description": "Embark on a journey of self-improvement and building self-esteem with our dedicated counseling services. Discover your strengths and foster personal growth..."
+    },
+    {
+      "id": 12,
+      "name": "PTSD",
+      "description": "Our PTSD counseling services offer a supportive environment for individuals dealing with post-traumatic stress disorder. Find healing and resilience..."
+    },
+    {
+      "id": 13,
+      "name": "Marriage/Divorce",
+      "description": "Whether you're navigating the complexities of marriage or facing the challenges of divorce, our therapists provide guidance and support..."
+    },
+    {
+      "id": 14,
+      "name": "Bereavement/Grief",
+      "description": "Our grief counseling services provide compassionate support for those experiencing loss. Navigate the grieving process with understanding and care..."
+    },
+    {
+      "id": 15,
+      "name": "Cultural Concerns",
+      "description": "Address cultural concerns and navigate the intersection of culture and mental health with our culturally sensitive counseling services..."
+    },
+    {
+      "id": 16,
+      "name": "Insomnia",
+      "description": "improve your sleep with our specialized counseling services. Explore strategies for better sleep hygiene and overall well-being..."
+    }
+  ],
+  "contacts": [
+    {
+      "id": "33cd",
+      "fullName": "anton khassanov",
+      "email": "marioanton9@gmail.com",
+      "phoneNumber": "3477432365",
+      "aboutYourself": "ddd"
+    }
+  ]
+}

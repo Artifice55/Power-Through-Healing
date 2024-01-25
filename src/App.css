@@ -36,3 +36,105 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #6e8e9e, #c0c0c0, #007d7d, #000066);
+    color: white;
+    height: 200px;
+    list-style: none;
+  }
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  height: 60px ;;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  margin-top: 0px;
+}
+
+.navbar li {
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 15px ;
+  padding: 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-left: 20px;
+
+}
+
+.heading {
+  color: #333;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.sub-heading {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.expertise-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expertise-list li {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.philosophy {
+  color: #444;
+}

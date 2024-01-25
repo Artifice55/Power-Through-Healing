@@ -1,31 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-import HomePage from "./components/HomePage"
-import AboutMePage from "./components/AboutMePage" 
-import Services from "./components/Services" 
-import ContactInformation from "./components/ConactInformation";
+import { BrowserRouter } from 'react-router-dom';
+
+
+// TODO:  Restructure root rendering to ONLY render <App> component. 
+//        <App> will now be the global parent for all other React components
+//        for this project (`index.js` will just wrap around everything). 
+//        In other words, no child components at all in this file. 
 
 // Root component with all other components nested within.
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
-      <Routes>
-        <Route path="/" element={ <App/>} />
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/about" element={<AboutMePage />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<ContactInformation />} />
-      </Routes>
-    </Router>
+    <BrowserRouter >
+    <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
